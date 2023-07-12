@@ -353,8 +353,8 @@ body {
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../hero-bg-bottom.png"),
-                    url("../hero-bg.png"),
+  background-image: url("./hero-bg-bottom.png"),
+                    url("./hero-bg.png"),
                     var(--gradient-1);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: -280px bottom, center, center;
@@ -452,7 +452,7 @@ body {
 }
 
 .service-card .card-icon {
-  background-image: url("../service-banner-pattern.png");
+  background-image: url("./service-banner-pattern.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-color: hsla(335, 87%, 53%, 0.12);
@@ -623,7 +623,7 @@ body {
 .footer a { color: inherit; }
 
 .footer-top {
-  background-image: url("../footer-bg.png"), var(--gradient-1);
+  background-image: url("./footer-bg.png"), var(--gradient-1);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center, center;
